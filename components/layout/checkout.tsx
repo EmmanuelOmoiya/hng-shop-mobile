@@ -7,7 +7,7 @@ const Checkout = ({ focused }:{ focused: boolean }) => {
         <View>
             {
                 focused !== true ?
-                <View className="w-[30] rounded-full">
+                <View className="w-[20] rounded-full">
                     <CheckoutIcon />
                 </View>
                 :

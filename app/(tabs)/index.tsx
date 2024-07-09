@@ -33,10 +33,10 @@ export default function HomeScreen() {
           }}
         />
     <StatusBar backgroundColor="#101010" style="light" />
-    <View className="min-h-[3]">
+    <View className="min-h-[3]" style={{ width: "100%" }}>
       <FlatList
         data={products}
-        renderItem={({ item }) => <ProductCard image={item.image} price={item.price} name={item.name} id={item.id} />}
+        renderItem={({ item }) => <ProductCard width={"100%"} image={item.image} price={item.price} name={item.name} id={item.id} />}
         numColumns={2}
       />
       {/* <MasonryFlashList 

@@ -6,8 +6,8 @@ const Products = ({ focused }:{ focused: boolean }) => {
         <View>
             {
                 focused !== true ?
-                <View className="w-[35] rounded-full">
-                    <Product />
+                <View className="w-[20] rounded-full">
+                    <Product color={"white"} />
                 </View>
                 :
                 <Text className="font-mregular text-[#e66945] text-md">Products</Text>
